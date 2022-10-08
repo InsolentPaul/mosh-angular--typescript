@@ -2,9 +2,17 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'courses', // <courses>
-  template: '<h2>Template test</h2>',
+  template: `
+    <h2>{{ title }}</h2>
+    <ul>
+      <li *ngFor="let course of courses">
+        {{ course }}
+      </li>
+    </ul>
+  `,
 }) // decorator function
 export class CoursesComponent {
   // Pascal naming
-  //
+  title = 'List of courses';
+  courses = ['Course1', 'Course2', 'Course3'];
 }

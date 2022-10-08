@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { CourseComponent } from './course/course.component';
 
 @NgModule({
-  declarations: [AppComponent, CourseComponent],
+  declarations: [AppComponent, CourseComponent, CoursesComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
