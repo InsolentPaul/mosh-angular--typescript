@@ -15,4 +15,6 @@ export class CoursesComponent {
   // Pascal naming
   title = 'List of courses';
   courses = ['Course1', 'Course2', 'Course3'];
+
+  // logic for calling HTTP service
 }
